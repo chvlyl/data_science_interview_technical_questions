@@ -1,5 +1,5 @@
 # Data Science Interview Questions
-My collection of data science interview technical questions
+My collection of data science interview questions
 
 # Table of Contents
 1. Computer Science
