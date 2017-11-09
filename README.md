@@ -4,13 +4,15 @@ My collection of data science interview technical questions
 # Table of Contents
 1. Computer Science
 2. Algorithm
-3. Calculus
+3. [Math](#math)
 4. Linear Algebra
 5. Probability
 6. Statistics
 7. Machine Learning
 8. Deep Learning
 9. [Healthcare](#healthcare)
+
+## Math
 
 
 ## Healthcare
