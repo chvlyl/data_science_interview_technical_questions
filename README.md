@@ -7,7 +7,7 @@ My collection of data science interview questions
 3. [Math](#math)
 4. Linear Algebra
 5. Probability
-6. [Statistics](#Statistics)
+6. [Statistics](#statistics)
 7. Machine Learning
 8. [Deep Learning](#deep-learning)
 9. [Healthcare](#healthcare)
@@ -39,6 +39,16 @@ Hashing table is a mapping between keys and values.
 
 #### 2. Linear independent
 
+
+<br><br>
+## Statistics
+
+#### 1. Likelihood function
+Likelihood function is a function of parameters given the observed data. That is, we consider that the observed data are fixed but the paramters can vary. We hope to find a set of parameter values that maximize the likelihood function, which indicate that under the observed data, the model with such parameter values is the most probable model. In other words, we find a set of parameter values to maximize the likelihood function based on the observed data and hope this model is a good approximation to the true model that generates the observed data.
+
+#### 2. Bayesian vs frequentist statistics
+
+
 <br><br>
 ## Deep Learning
 
@@ -49,4 +59,4 @@ In short, deconvolution is just to pad each pixel first and then do convolution.
 ## Healthcare
 
 #### 1\. Administrative data
-Administrative data is the data from government or issurance company for administrative purpose, for example evaluating the quality of health care. Compared to EHR data from hospitals, administrative data has patient demongraphic information as well as dignosis information, but may not have detailed treatment or lab result information.   
+Administrative data is the data from government or insurance company for administrative purpose, for example evaluating the quality of health care. Compared to EHR data from hospitals, administrative data has patient demongraphic information as well as dignosis information, but may not have detailed treatment or lab result information.   
