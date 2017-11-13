@@ -8,7 +8,7 @@ My collection of data science interview questions
 4. Linear Algebra
 5. Probability
 6. [Statistics](#statistics)
-7. Machine Learning
+7. [Machine Learning](#machine-learning)
 8. [Deep Learning](#deep-learning)
 9. [Healthcare](#healthcare)
 
@@ -39,6 +39,7 @@ Hashing table is a mapping between keys and values.
 
 #### 2. Linear independent
 
+#### 3. Distance and norms
 
 <br><br>
 ## Statistics
@@ -48,6 +49,11 @@ Likelihood function is a function of parameters given the observed data. That is
 
 #### 2. Bayesian vs frequentist statistics
 
+
+<br><br>
+## Machine Learning
+
+#### 1. KL divergence
 
 <br><br>
 ## Deep Learning
