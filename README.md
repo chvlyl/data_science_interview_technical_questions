@@ -50,6 +50,8 @@ Likelihood function is a function of parameters given the observed data. That is
 #### 2. Bayesian vs frequentist statistics
 
 
+#### 3. Fisher information
+
 <br><br>
 ## Machine Learning
 
@@ -59,7 +61,17 @@ Likelihood function is a function of parameters given the observed data. That is
 ## Deep Learning
 
 #### 1. Deconvolution (Fractionally strided convolution, Transposed convolution)
-In short, deconvolution is just to pad each pixel first and then do convolution. [This Github repo](https://github.com/vdumoulin/conv_arithmetic) has visualization for all kinds of convolutions. I highly recommend reads to check it out. 
+First, one key point is that the convolution operation can be calculated by matrix multiplication. The input feature map can be writen as a vector, the kernel can be written as a sparse matrix and the convolution is just the product of these two matrices.   
+
+In short, deconvolution is just to pad each pixel first and then do convolution. [This Github repo](https://github.com/vdumoulin/conv_arithmetic) has visualization for all kinds of convolutions. I highly recommend readers to check it out. 
+
+Note that deconvolution is not an appropriate name for this operation (check the CS231n course for explanation). 
+
+#### 2. Dilated convolution (Atrous convolution)
+Dilated convolution is similar to the regular convolution. The only difference is that it skips some pixels when doing convolution. Imaging a 3x3 regular convolution, the dilated convolution will use the pixels at rows 1,3,5 and columns 1,3,4 and thus the pixels in the middel are skipped. The dilation rate controls how many pixels to skip. In the previous example, the dilation rate is 2. By using dilated convolution, the receptive fild increases from 3x3 to 5x5 while the number of parameters are the same, which is an advantage over the large kernel. 
+
+#### 3. Kernel size, stride, padding, channel, feature map in CNN
+
 
 <br><br>
 ## Healthcare
