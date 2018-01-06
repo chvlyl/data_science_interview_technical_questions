@@ -15,12 +15,12 @@ My collection of data science interview questions
 <br><br>
 ## Computer Science
 
-#### 1\. Process and thread
+#### 1\. Process and thread (lock)
 
 <br><br>
 ## Algorithm
 
-#### 1\. Hashing table and hashing function
+#### 1\. Hashing table and collision
 Hashing table is a mapping between keys and values.
 
 <br><br>
@@ -35,22 +35,39 @@ Hashing table is a mapping between keys and values.
 <br><br>
 ## Linear Algebra
 
-#### 1. Rank
+#### 1\. Rank
 
-#### 2. Linear independent
+#### 2\. Linear independent
 
-#### 3. Distance and norms
+#### 3\. Distance and norms
+
+#### 4\. Rank
+
+#### 5\. Jacobian matrix and  hessian matrix
 
 <br><br>
 ## Statistics
 
-#### 1. Likelihood function
+#### 1\. Likelihood function
 Likelihood function is a function of parameters given the observed data. That is, we consider that the observed data are fixed but the paramters can vary. We hope to find a set of parameter values that maximize the likelihood function, which indicate that under the observed data, the model with such parameter values is the most probable model. In other words, we find a set of parameter values to maximize the likelihood function based on the observed data and hope this model is a good approximation to the true model that generates the observed data.
 
-#### 2. Bayesian vs frequentist statistics
+#### 2\. Bayesian vs frequentist statistics
 
 
-#### 3. Fisher information
+#### 3\. Fisher information
+
+#### 4\. PPV and NPV
+PPV is positive predictive value and NPV is negative predictive value. For a test, PPV measures how many true positives among called positives. Note that PPV and NPV depend are the prevalence (for example, the prevalence of a disease is 0.1%). Sensitivity and specificity are two intrinsic test characteristics and they don't depend on the prevalence. But PPV and NPV depend on both the intrinsic test characteristic and the prevalence.
+
+#### 5\.  Newton's method (Newton–Raphson method)
+
+#### 6\.  Bayes theorem
+P(A|B) = P(B|A)P(A) / P(B)
+
+#### 7\.  Expecation, variance, covariance
+
+#### 8\.  
+
 
 <br><br>
 ## Machine Learning
@@ -82,6 +99,7 @@ In short, fractionally strided convolution is just to pad each pixel first and t
 #### 3. Dilated convolution (Atrous convolution)
 Dilated convolution is similar to the regular convolution. The only difference is that it skips some pixels when doing convolution. Imaging a 3x3 regular convolution, the dilated convolution will use the pixels at rows 1,3,5 and columns 1,3,4 and thus the pixels in the middel are skipped. The dilation rate controls how many pixels to skip. In the previous example, the dilation rate is 2. By using dilated convolution, the receptive fild increases from 3x3 to 5x5 while the number of parameters are the same, which is an advantage over the large kernel. 
 
+#### 4\. Saddle point, minimax point, stationary point
 
 
 <br><br>
