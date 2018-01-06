@@ -2,7 +2,7 @@
 My collection of data science interview questions
 
 # Table of Contents
-1. Computer Science
+1. [Computer Science](#computer-science)
 2. [Algorithm](#algorithm)
 3. [Math](#math)
 4. Linear Algebra
@@ -17,11 +17,15 @@ My collection of data science interview questions
 
 #### 1\. Process and thread (lock)
 
+
 <br><br>
 ## Algorithm
 
 #### 1\. Hashing table and collision
 Hashing table is a mapping between keys and values.
+
+#### 2\. Common sorting algorithms and complexity 
+
 
 <br><br>
 ## Math
