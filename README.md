@@ -76,7 +76,15 @@ P(A|B) = P(B|A)P(A) / P(B)
 <br><br>
 ## Machine Learning
 
-#### 1. KL divergence
+#### 1\. KL divergence
+
+#### 2\. AUC (C-statistic)
+AUC is commonly used to evaluate machine learning models. In the medical filed, it is also called C-statistic or concordance statistic.
+Limitations of AUC: (1) No clear interpretations about the meaning of increment in the AUC obtained by adding new variables to the model. (2) The small increments in AUC by adding new variables may have wrong interpretation that no improvement in model predictive preformance. 
+
+
+
+
 
 <br><br>
 ## Deep Learning
@@ -104,6 +112,8 @@ In short, fractionally strided convolution is just to pad each pixel first and t
 Dilated convolution is similar to the regular convolution. The only difference is that it skips some pixels when doing convolution. Imaging a 3x3 regular convolution, the dilated convolution will use the pixels at rows 1,3,5 and columns 1,3,4 and thus the pixels in the middel are skipped. The dilation rate controls how many pixels to skip. In the previous example, the dilation rate is 2. By using dilated convolution, the receptive fild increases from 3x3 to 5x5 while the number of parameters are the same, which is an advantage over the large kernel. 
 
 #### 4\. Saddle point, minimax point, stationary point
+
+
 
 
 <br><br>
