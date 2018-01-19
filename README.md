@@ -73,7 +73,7 @@ P(A|B) = P(B|A)P(A) / P(B)
 #### 8\. Bayes factor
 The raio of the posterior odds to the prior odds. P(D|M1)/P(D|M2), where D is the data and M1,M2 are models. P(D|M) is the likelihood. Bayes factor is quite similar to likelihood ratio test. The difference is that the bayes factor integrates over all parameters in the model, while likelihood ratio test only evaulates the models at some specific sets of values.  
 
-P(D|M1)/P(D|M2) = [P(M1|D)/P(M2|D)] / [P(M1)/P(M2)], this is posterior odds / prior odds.
+P(D|M1)/P(D|M2) = [P(M1|D)/P(M2|D)] / [P(M1)/P(M2)], this is posterior odds / prior odds. Bayes factor > 1 indicates the model M1 is more supported by the data than model M2. 
 
 
 <br><br>
