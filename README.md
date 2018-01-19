@@ -70,7 +70,8 @@ P(A|B) = P(B|A)P(A) / P(B)
 
 #### 7\.  Expecation, variance, covariance
 
-#### 8\.  
+#### 8\. Bayes factor
+The raio of the posterior odds to the prior odds. P(D|M1)/P(D|M2), where D is the data and M1,M2 are models. P(D|M) is the likelihood. Bayes factor is quite similar to likelihood ratio test. The difference is that the bayes factor integrates over all parameters in the model, while likelihood ratio test only evaulates the models at some specific sets of values.   
 
 
 <br><br>
