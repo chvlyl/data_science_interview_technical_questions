@@ -117,7 +117,7 @@ Dilated convolution is similar to the regular convolution. The only difference i
 #### 4\. Saddle point, minimax point, stationary point
 
 
-
+#### 5\. LSTM cell and GRU cell
 
 <br><br>
 ## Healthcare
