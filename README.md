@@ -47,7 +47,11 @@ Hashing table is a mapping between keys and values.
 
 #### 4\. Rank
 
+
 #### 5\. Jacobian matrix and  hessian matrix
+Jocobian matrix: if you have multiple functions and multiple variables, for example, f(x,y) and g(x,y). You want to take the partial derivatives for all functions with respect to all variables. Then all the gradients can be represented in a matrix, which is called Jacobian matrix:
+df/dx  df/dy
+dg/dx  dg/dy
 
 <br><br>
 ## Statistics
